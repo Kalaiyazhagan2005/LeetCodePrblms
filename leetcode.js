@@ -28,3 +28,43 @@
 // console.log(fun(3).notToBe(4)); true
 
 
+/*     _________________________________________________________       */
+/*     _________________________________________________________       */
+                  
+//                       ---`PROBLEM 2`---
+//                        --level: easy--
+//                       --`COUNTER PROGRAM-||`--
+//                       --LEETCODE PROBLEM--
+
+
+// Write a function that takes a value and return an object with three methods increment, decrement and reset
+// increment method should increment the value by 1
+// decrement method should decrement the value by 1
+// reset method should reset the value to the original value passed to the function
+/*     _________________________________________________________       */
+/*     _________________________________________________________       */
+
+
+/* counterProgram
+const createCounter = (value)=>{
+    let val = value;
+    return{
+        increment:()=>{
+            return ++val;
+        },
+        decrement:()=>{
+            return --val;
+        },
+        reset:()=>{
+            val = value;
+            return val;
+        }
+    }
+
+};
+const counter = createCounter(10);
+console.log(counter.increment());//11
+console.log(counter.decrement());//10
+console.log(counter.reset());//10
+*/
+
