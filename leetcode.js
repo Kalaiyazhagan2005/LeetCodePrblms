@@ -27,7 +27,6 @@
 // console.log(fun(4).notToBe(4)); false
 // console.log(fun(3).notToBe(4)); true
 
-const { finished } = require("stream");
 
 
 /*     _________________________________________________________       */
@@ -75,37 +74,18 @@ console.log(counter.reset());//10
 //                --`Apply Transform over each Element`--
 //                        --LEETCODE PROBLEM--
 
-/*
-let newArray = []
-const map = function(arr,fn){
-    return fn(arr);
-};
 
-function plusone(arr){
-    for(let i=0;i<arr.length;i++){
-        newArray.push(arr[i]+1);
-    };
-    return newArray;
-};
 
-function plus(arr){
-    for(let j=0;j<arr.length;j++){
-        newArray.push(arr[j]+j);
-    };
-    return newArray;
-};
-function constant(c){
-    for(let k=0;k<arr.length;k++){
-        newArray.push(c);
-    };
-    return newArray;
-};
-*/
-// let arr = [1,3,5]
-// const n = map(arr,plusone);
+// const map = function (arr,fn){
+//     const Transform =[];
+//     for(let i=0;i<arr.length;i++){
+//         Transform[i] = fn(arr[i],i);
+//     };
+//     return Transform;
+// }
+// const arr = [1,2,3,4,5];
+// const n = map(arr,function plusone(n){return n+1});
 // console.log(n);
-// const n = map(arr,plus);
-// console.log(n);
-// let con =45
-// const n = map(con,constant);
-// console.log(n)
+
+
+
