@@ -89,3 +89,22 @@ console.log(counter.reset());//10
 
 
 
+//                          ---`PROBLEM 4`---
+//                           --level: easy--
+//                   --`Apply filter on Element`--
+//                        --LEETCODE PROBLEM--
+
+// var filter = function(arr, fn) {
+//     const filterArray =[]
+//     for(let i=0;i<arr.length;i++){
+
+//        if(fn(arr[i],i)){
+//             filterArray.push(arr[i]);
+//        };
+//     };
+//     return filterArray
+// }; 
+
+// f = filter()
+
+
