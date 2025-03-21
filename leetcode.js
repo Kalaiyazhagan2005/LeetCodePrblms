@@ -108,3 +108,17 @@ console.log(counter.reset());//10
 // f = filter()
 
 
+//                          ---`PROBLEM 5`---
+//                           --level: easy--
+//                   --`Apply reduce function without using reduce function`--
+//                        --LEETCODE PROBLEM--
+
+
+// var reduce = function(nums, fn, init) {
+//     let value = init;
+//     for(let i = 0;i<nums.length;i++){
+//         value = fn(value,nums[i]);
+    
+//     };
+//     return value;
+// };
